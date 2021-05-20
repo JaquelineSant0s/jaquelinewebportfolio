@@ -15,7 +15,7 @@ h1 {
     font-family: 'Poiret One', 'Times New Roman', Times, serif, cursive;
     font-size: 1.5rem;
     margin:0;
-    padding: 0.5rem 0;
+    padding: 0.5rem;
     align-self: center;
 }
 .cover h1 {
@@ -250,10 +250,6 @@ a:hover {
     margin: 0;
     padding: 0;
 }
-/* 
-******************problema tá aqui***************************
-******************problema tá aqui***************************
-******************problema tá aqui***************************/
 
 .post-cover:hover .image-cover {
     opacity: 0.2;
@@ -271,7 +267,7 @@ a:hover {
 .content-links {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     padding-top: 1.5rem;
     align-items: center;
 }
@@ -305,7 +301,7 @@ a:hover {
 .content {
     display: flex;
     flex-direction: column;
-    margin: 3rem 8rem;
+    margin: 1rem;
     padding: 0;
 }
 .content-gallery {
@@ -370,6 +366,7 @@ a:hover {
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: 3rem 8rem;
     }
     .content-gallery {
         grid-column:span 3;
