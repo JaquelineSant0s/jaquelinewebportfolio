@@ -12,13 +12,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-197564400-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-197564400-1');
+    </script>
 </head>
 <body>
     <header class="site-header"><!--header-->
         <a href="index.html"><h1>Jaqueline Santos</h1></a>
         <nav>
           <ul class="menu-main">
-            <li><a href="https://drive.google.com/file/d/1azRq9CR-nJSmoePURM1EeHPh7WRIA--N/view?usp=sharing">Resume</a></li>
+            <li><a href="https://drive.google.com/file/d/1WOnuJCeHQPBUo-B8tEnOVIfCBhXgJlTC/view?usp=sharing">Resume</a></li>
           </ul>
         </nav>
     </header>
@@ -61,18 +70,39 @@
                 <p>Highlight geolocation and best route.</p>
                 <p>recycling facts section with picture, details about the type of waste and best ways of management.</p>
             </div>
-            <h2>Design Process</h2>
-            <p>Analysis of competitors.</p>
-            <p>Interview with people that fits in the target audience regarding recycling activities and pain points.</p> 
-            <p>Building user journey.</p> 
-            <p>Ideating basic structure.</p>  
-
-            <h2>Waste Management UX<br>Wireframe Notes</h2>
-            <p>These are some parts of UX content developed by me, regarding the Waste Management features.</p>
-            <p>These are some parts of UX content developed by me, regarding the Waste Management features.</p> 
-            <p>These are some parts of UX content developed by me, regarding the Waste Management features.</p> 
-            <p>These are some parts of UX content developed by me, regarding the Waste Management features.</p>       
-
+            <h2>Mobile Wireframe Notes</h2>
+            <h3>Searching Page</h3>
+                <ul>
+                    <li>Mobile navigation bar with hamburguer menu, please add back button in iOs version.</li>
+                    <li>Searching header. Search by item will have dropdown list to auto-complete with list of items from database.</li>
+                    <li>Toggle options to see Map or material, in this wireframe case Map is activated.</li>
+                    <li>Map with icons over locations.</li>
+                    <li>List of card with summary of information about the locations. The list can be scroll down. The name of location is a link to go to "location detail" see next wireframe "Location Details".</li>
+                </ul>
+            <h3>Location Details</h3>
+                <ul>
+                    <li>Location details page with details about location according what is provided by database (address, phone, link to website location, hour of operation and short description.</li>
+                    <li>Column of button icons. First top right of card will have icon to close details and goes back to map and list of locations (previous wireframe).
+                    Second is a link that calls the number, third icon goes to google maps application to get directions (second and third only in the mobile version).</li>
+                    <li>Location short description.</li>
+                    <li>Hour of operation according what exists  in database.</li>
+                    <li>List of materials accepted in this location.</li>
+                    <li>Location delivery notes according to each location.</li>
+                    <li>Mobile footer.</li>
+                </ul>
+                <h3>Material Details Page</h3>
+                <ul>
+                    <li>Toggle option with Material Info enable.</li>
+                    <li>Material name.</li>
+                    <li>Material type (material familyID in the database) and Bin related to this material.</li>
+                    <li>Short description of the item according to database.</li>
+                    <li>Item picture.</li>
+                    <li>Recycling notes according to item.</li>
+                    <li>Recycling Facts is a text produced by team, based on Wikipedia and is related to material family. Example: Searching for Plastic Bag, recycling fact will be about plastic.</li>
+                    <li>Button that goes to "Explore" page, same link as the explore page in the navigation bar.</li>
+                    <li>Call to action with button that goes to Quiz page, same as Challenge in the navigation bar.</li>
+                    <li> Mobile website footer.</li>
+                </ul>
             <div class="post-conclusion">
                 <p>
                     This is the MVP was produced in 11 weeks by a team of 4 developers and 6 designers for Capstone project at Langara College concluding WMDD post graduation course in April 2021. This project was nominated in Capstone Show Case Event by the  panelists as "Best in Show" competed this place with other two extensive web and mobile projects.
